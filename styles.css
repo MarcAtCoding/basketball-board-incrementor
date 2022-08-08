@@ -1,0 +1,87 @@
+@font-face {
+    font-family: CursedTimerUlil;
+    src: url(assets/fonts/CursedTimerUlil-Aznm.ttf);
+}
+*{
+    margin: 0;
+}
+body {
+    background-color: #E5E5E5;
+}
+.container{
+    margin: 0 auto;
+    margin-top: 60px;
+    width: 575px;
+    height: 503px;
+    background-color:#1B244A;
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 69px;
+}
+.home{
+    margin-right: 100px;
+}
+.home, .guest{
+    padding-bottom: 21px;
+    font-family: Verdana;
+    font-size: 40px;
+    color: #EEEEEE;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.score-text{
+    color: #F94F6D;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    text-align: center;
+    padding-top: 10px;
+    font-family: CursedTimerUlil;
+}
+.background{
+    width: 155px;
+    height: 120px;
+    background: #080001;
+    border-radius: 5px;
+    margin-bottom: 26px;
+    margin-top: 21px;
+}
+button{
+    cursor: pointer;;
+    width: 45px;
+    height: 45px;
+    box-sizing: border-box;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    background-color: transparent;
+    font-family: CursedTimerUlil;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #9AABD8;
+    padding: 8px;
+    padding-top: 7px;
+    padding-bottom: 6px;
+}
+button:hover{
+    transition: 0.5s;
+    background-color: #353c5c;
+}
+.timer{
+    font-family: CursedTimerUlil;
+    font-size: 90px;
+    color: #F94F6D;
+    text-align: center;
+    background-color: #080001;
+    padding-top: 20px;
+}
